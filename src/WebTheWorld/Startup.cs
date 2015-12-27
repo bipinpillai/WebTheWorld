@@ -37,7 +37,6 @@ namespace WebTheWorld
             //</html>";
             //                await context.Response.WriteAsync(html);
             //            });
-            app.UseDefaultFiles();
             app.UseStaticFiles();
 
         }
